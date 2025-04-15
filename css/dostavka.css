@@ -1,0 +1,206 @@
+ol {
+  padding: 15px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  list-style: none;
+}
+@media screen and (max-width: 545px) {
+  ol {
+    flex-wrap: wrap;
+  }
+}
+ol li {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: var(--clr-white);
+}
+ol li a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--clr-text);
+}
+ol li:last-child {
+  background-color: var(--clr-main);
+}
+ol li:last-child a {
+  color: var(--clr-white);
+  pointer-events: none;
+}
+
+@media screen and (max-width: 992px) {
+  .dostavka-row {
+    max-width: 810px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .dostavka-section-title {
+    margin-bottom: 25px !important;
+  }
+}
+@media screen and (max-width: 520px) {
+  .dostavka-section-title h2 {
+    text-align: start !important;
+  }
+}
+
+.dostavka__content {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  gap: 30px;
+}
+@media screen and (max-width: 1049px) {
+  .dostavka__content {
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .dostavka__content {
+    max-width: 810px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.dostavka__content_text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.dostavka__content_text p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  color: var(--clr-text);
+}
+@media screen and (max-width: 768px) {
+  .dostavka__content_text p {
+    font-size: 16px;
+  }
+}
+.dostavka__content_img {
+  width: 100%;
+  height: 362px;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .dostavka__content_img {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 545px) {
+  .dostavka__content_img {
+    height: 250px;
+  }
+}
+.dostavka__content_img img {
+  min-width: 490px;
+  max-width: 810px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+@media screen and (max-width: 992px) {
+  .dostavka__content_img img {
+    min-width: 100%;
+  }
+}
+.dostavka__item:nth-child(1) {
+  max-width: 570px;
+  min-width: 450px;
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  .dostavka__item:nth-child(1) {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+.dostavka__item:nth-child(2) {
+  flex: 1 1 auto;
+}
+.dostavka__info {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+@media screen and (max-width: 992px) {
+  .dostavka__info {
+    flex-direction: column;
+  }
+}
+.dostavka__info_item {
+  width: 50%;
+}
+@media screen and (max-width: 992px) {
+  .dostavka__info_item {
+    width: 100%;
+  }
+}
+.dostavka__info_item table {
+  width: 100%;
+  padding: 15px;
+  background: #e7e7e7;
+  border-radius: 24px;
+}
+.dostavka__info_item table tbody {
+  padding: 15px 0;
+  display: block;
+}
+.dostavka__info_item table tbody tr {
+  width: 100%;
+  background: var(--clr-white);
+  border-radius: 16px;
+  display: block;
+  overflow: hidden;
+}
+.dostavka__info_item table tbody tr:not(:last-child) {
+  margin-bottom: 15px;
+}
+.dostavka__info_item table tbody tr th, .dostavka__info_item table tbody tr td {
+  width: 100%;
+  height: 60px;
+  display: block;
+  font-family: var(--font-family);
+  font-weight: 700;
+  text-align: center;
+  line-height: 60px;
+  color: var(--clr-text);
+}
+.dostavka__info_item table tbody tr th {
+  font-size: 22px;
+}
+@media screen and (max-width: 445px) {
+  .dostavka__info_item table tbody tr th {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .dostavka__info_item table tbody tr th {
+    font-size: 16px;
+  }
+}
+.dostavka__info_item table tbody tr td {
+  font-size: 18px;
+  background: var(--img) center/91px no-repeat;
+}
+@media screen and (max-width: 445px) {
+  .dostavka__info_item table tbody tr td {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .dostavka__info_item table tbody tr td {
+    font-size: 12px;
+  }
+}

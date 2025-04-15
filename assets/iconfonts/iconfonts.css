@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'icon-opttorg';
+  src:  url('fonts/icon-opttorg.eot?ve7dno');
+  src:  url('fonts/icon-opttorg.eot?ve7dno#iefix') format('embedded-opentype'),
+    url('fonts/icon-opttorg.ttf?ve7dno') format('truetype'),
+    url('fonts/icon-opttorg.woff?ve7dno') format('woff'),
+    url('fonts/icon-opttorg.svg?ve7dno#icon-opttorg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-opttorg' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-pag-next:before {
+  content: "\e913";
+  color: #4e4b66;
+}
+.i-pag-prev:before {
+  content: "\e914";
+  color: #4e4b66;
+}
+.i-filter:before {
+  content: "\e912";
+}
+.i-calendar:before {
+  content: "\e902";
+}
+.i-minus_2:before {
+  content: "\e900";
+}
+.i-plus:before {
+  content: "\e90b";
+}
+.i-arrow:before {
+  content: "\e901";
+}
+.i-cart:before {
+  content: "\e903";
+}
+.i-checked:before {
+  content: "\e904";
+}
+.i-checked_2:before {
+  content: "\e905";
+}
+.i-close:before {
+  content: "\e906";
+}
+.i-delete:before {
+  content: "\e907";
+}
+.i-document:before {
+  content: "\e908";
+}
+.i-mail:before {
+  content: "\e909";
+}
+.i-phone:before {
+  content: "\e90a";
+}
+.i-products:before {
+  content: "\e90c";
+}
+.i-search:before {
+  content: "\e90d";
+}
+.i-star:before {
+  content: "\e90e";
+}
+.i-time:before {
+  content: "\e90f";
+}
+.i-user:before {
+  content: "\e910";
+}
+.i-user_2:before {
+  content: "\e911";
+}
